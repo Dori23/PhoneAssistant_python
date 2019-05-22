@@ -44,7 +44,7 @@ class List:
             print(self.found_numbers[i], end=" ")
             i = i + 1
 
-""" 
+
 list_numbers = List()
 list_numbers.__init__()
 list_numbers.initialize_from_database()
@@ -55,7 +55,7 @@ input_number  = input("\nPlease enter digits, from which the number starts:")
 list_numbers.find_numbers(input_number)
 list_numbers.print_found_numbers()
 
-"""  
+
     
     
     
